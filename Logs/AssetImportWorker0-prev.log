@@ -1,0 +1,1051 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.22f1c1 (9ee66e5289da) revision 10413678'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'zh' Physical Memory: 16126 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+W:\IDE\UnityEditor\2020.3.22f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+P:/Project/MouseBall/MouseBall
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60656
+Successfully changed project path to: P:/Project/MouseBall/MouseBall
+P:/Project/MouseBall/MouseBall
+Using Asset Import Pipeline V2.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 39.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1c1 (9ee66e5289da)
+[Subsystems] Discovering subsystems at path W:/IDE/UnityEditor/2020.3.22f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path P:/Project/MouseBall/MouseBall/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   27.21.14.6685
+Initialize mono
+Mono path[0] = 'W:/IDE/UnityEditor/2020.3.22f1c1/Editor/Data/Managed'
+Mono path[1] = 'W:/IDE/UnityEditor/2020.3.22f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'W:/IDE/UnityEditor/2020.3.22f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: W:/IDE/UnityEditor/2020.3.22f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000619 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Domain Reload Profiling:
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (33ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (321ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (130ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (640ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 2.565200 ms (FindLiveObjects: 0.141200 ms CreateObjectMapping: 0.033800 ms MarkObjects: 2.332200 ms  DeleteObjects: 0.056600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PictureAssets/游戏场景
+  artifactKey: Guid(f88db2feaed93cc47b3a17f41045ec28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景 using Guid(f88db2feaed93cc47b3a17f41045ec28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c41d44d3fbb6ef844b29643a6267a3e') in 0.007986 seconds 
+  Import took 0.010516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-预览.png
+  artifactKey: Guid(1f91e11994f95f2469a78ac03206306b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-预览.png using Guid(1f91e11994f95f2469a78ac03206306b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9e17051ae7a21544f175141fd7f73b') in 0.091735 seconds 
+  Import took 0.094423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子1.png
+  artifactKey: Guid(62fa94b49e4b57142b47f764f0a79a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子1.png using Guid(62fa94b49e4b57142b47f764f0a79a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df612ec16229068fd16fe6f38d09a687') in 0.028985 seconds 
+  Import took 0.032228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解
+  artifactKey: Guid(3fce19262baedac42a66f631e000214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解 using Guid(3fce19262baedac42a66f631e000214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882f3672d0e3c8b1ec5a55faae337f2f') in 0.004989 seconds 
+  Import took 0.007850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-花坛.png
+  artifactKey: Guid(9677b3b816f4cec41875e5750e3de372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-花坛.png using Guid(9677b3b816f4cec41875e5750e3de372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fe2711324b79a9221ed84b15cf4997') in 0.016122 seconds 
+  Import took 0.019389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场·铁网.png
+  artifactKey: Guid(db12cb7677c2cdc4bb783a344ac87de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场·铁网.png using Guid(db12cb7677c2cdc4bb783a344ac87de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fee57a739e273d89999e508745e2a9d') in 0.016782 seconds 
+  Import took 0.020170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-乒乓球桌.png
+  artifactKey: Guid(4ed731ed1edb2f64393c4a3f803f8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-乒乓球桌.png using Guid(4ed731ed1edb2f64393c4a3f803f8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7296eaeedf388e4d7dba4fc2fb002d2c') in 0.016989 seconds 
+  Import took 0.020438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-足球框.png
+  artifactKey: Guid(103a367ff8e56ba409fa17578adb81c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-足球框.png using Guid(103a367ff8e56ba409fa17578adb81c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e7f35bf8e7952f58f73243d59efee9') in 0.015896 seconds 
+  Import took 0.019155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子2.png
+  artifactKey: Guid(470a8ef07ae3e5d4ca528288e40c90e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子2.png using Guid(470a8ef07ae3e5d4ca528288e40c90e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29968c5c0dc4ea46516561736be683d9') in 0.016236 seconds 
+  Import took 0.019595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/PictureAssets/游戏场景/铁网分组
+  artifactKey: Guid(b918d4524dbab9f44bb649dbe220ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/铁网分组 using Guid(b918d4524dbab9f44bb649dbe220ede8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dd22522e7b83007a95d300cc9a04fe') in 0.004934 seconds 
+  Import took 0.007951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-灌木丛.png
+  artifactKey: Guid(30ce7c6c322960347af012fc6f9bf0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-灌木丛.png using Guid(30ce7c6c322960347af012fc6f9bf0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e273bc25e5b204af9c5d5c0b1c5524') in 0.017246 seconds 
+  Import took 0.020551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场底图.png
+  artifactKey: Guid(17da6101bf1a317489a22768ba75e6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场底图.png using Guid(17da6101bf1a317489a22768ba75e6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735860c6923b0ac4b82549391681966d') in 0.018500 seconds 
+  Import took 0.022683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.337077 seconds.
+  path: Assets/PictureAssets/游戏场景/铁网分组/操场·铁网1.png
+  artifactKey: Guid(f15a9bcc8f7c4574494bb194a7a04644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/铁网分组/操场·铁网1.png using Guid(f15a9bcc8f7c4574494bb194a7a04644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa023095d7bdf108987cbe7a7d8eb93') in 0.016274 seconds 
+  Import took 0.020069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PictureAssets/游戏场景/铁网分组/操场·铁网3.png
+  artifactKey: Guid(dac4823c3c7a4424aafbb24994e0b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/铁网分组/操场·铁网3.png using Guid(dac4823c3c7a4424aafbb24994e0b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a1b3f54e9caa90483f2e444a13c3c8') in 0.058014 seconds 
+  Import took 0.061524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/PictureAssets/游戏场景/铁网分组/操场·铁网2.png
+  artifactKey: Guid(d1c4a2aa43dca20438f690d86be7e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/铁网分组/操场·铁网2.png using Guid(d1c4a2aa43dca20438f690d86be7e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f115a66b2167bdb68a25f93933bd894') in 0.021326 seconds 
+  Import took 0.024441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PictureAssets/游戏场景/铁网分组/操场·铁网6.png
+  artifactKey: Guid(ef7679416813af04db4c0b8dd1ac921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/铁网分组/操场·铁网6.png using Guid(ef7679416813af04db4c0b8dd1ac921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8fe11c22badd03294be0901e67808b') in 0.018886 seconds 
+  Import took 0.022076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/PictureAssets/游戏场景/铁网分组/操场·铁网5.png
+  artifactKey: Guid(d2fec6248276da14c81ef5a19424302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/铁网分组/操场·铁网5.png using Guid(d2fec6248276da14c81ef5a19424302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592b2c1963d76f09bd952c2db0556399') in 0.018798 seconds 
+  Import took 0.022640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/PictureAssets/游戏场景/铁网分组/操场·铁网4.png
+  artifactKey: Guid(be94885a01754ac4cb1e1e4f142141c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/铁网分组/操场·铁网4.png using Guid(be94885a01754ac4cb1e1e4f142141c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b1107c15da659772ef167994d99653') in 0.019183 seconds 
+  Import took 0.022690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.019043 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网7.png
+  artifactKey: Guid(64935cc68bcf8c44285f134bc31d94a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网7.png using Guid(64935cc68bcf8c44285f134bc31d94a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6737af47eff96970e2253fce24acc9b3') in 0.021003 seconds 
+  Import took 0.024559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.334444 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网1.png
+  artifactKey: Guid(f15a9bcc8f7c4574494bb194a7a04644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网1.png using Guid(f15a9bcc8f7c4574494bb194a7a04644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6e51792c26eff8fa9bedb1d219dea3') in 0.012085 seconds 
+  Import took 0.015545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.356302 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网4.png
+  artifactKey: Guid(be94885a01754ac4cb1e1e4f142141c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网4.png using Guid(be94885a01754ac4cb1e1e4f142141c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877e18af9552ee2e427ca8d1428aa599') in 0.012750 seconds 
+  Import took 0.016482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网6.png
+  artifactKey: Guid(ef7679416813af04db4c0b8dd1ac921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网6.png using Guid(ef7679416813af04db4c0b8dd1ac921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb2d2c5d7309117c0be852f5fd28829') in 0.013623 seconds 
+  Import took 0.017087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网5.png
+  artifactKey: Guid(d2fec6248276da14c81ef5a19424302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网5.png using Guid(d2fec6248276da14c81ef5a19424302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c03dcef46890e39a5146bdb3b7c69e4') in 0.012373 seconds 
+  Import took 0.015860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网7.png
+  artifactKey: Guid(64935cc68bcf8c44285f134bc31d94a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网7.png using Guid(64935cc68bcf8c44285f134bc31d94a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b569ff0a99ab416b2d66b76b2f62fa') in 0.012644 seconds 
+  Import took 0.016001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.210516 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网3.png
+  artifactKey: Guid(dac4823c3c7a4424aafbb24994e0b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网3.png using Guid(dac4823c3c7a4424aafbb24994e0b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb16ea5ff1af3f57608175c428979ea') in 0.022606 seconds 
+  Import took 0.026476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网2.png
+  artifactKey: Guid(d1c4a2aa43dca20438f690d86be7e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网2.png using Guid(d1c4a2aa43dca20438f690d86be7e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3dc44af4ef0559221a56237cb84b44') in 0.012837 seconds 
+  Import took 0.016139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.306958 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网1.png
+  artifactKey: Guid(f15a9bcc8f7c4574494bb194a7a04644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网1.png using Guid(f15a9bcc8f7c4574494bb194a7a04644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59e6b324a0c74a267d422474af4981c') in 0.036617 seconds 
+  Import took 0.040724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.869362 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网2.png
+  artifactKey: Guid(d1c4a2aa43dca20438f690d86be7e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网2.png using Guid(d1c4a2aa43dca20438f690d86be7e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a14a51a26dadb3dac1f286620d6f08') in 0.044604 seconds 
+  Import took 0.048455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.608199 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网2.png
+  artifactKey: Guid(d1c4a2aa43dca20438f690d86be7e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网2.png using Guid(d1c4a2aa43dca20438f690d86be7e0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba3191ea116ad03d9e4811a5c7aab07') in 0.022689 seconds 
+  Import took 0.026435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.093507 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网3.png
+  artifactKey: Guid(dac4823c3c7a4424aafbb24994e0b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网3.png using Guid(dac4823c3c7a4424aafbb24994e0b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fa34a5767724d08ca0c542bd196ce6') in 0.028725 seconds 
+  Import took 0.032968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.214027 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网3.png
+  artifactKey: Guid(dac4823c3c7a4424aafbb24994e0b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网3.png using Guid(dac4823c3c7a4424aafbb24994e0b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75fec26d55375d23bccbc0c98a17880') in 0.045627 seconds 
+  Import took 0.049004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.334539 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网4.png
+  artifactKey: Guid(be94885a01754ac4cb1e1e4f142141c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网4.png using Guid(be94885a01754ac4cb1e1e4f142141c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3718c2cbae46027a69fa862c4befffa5') in 0.016935 seconds 
+  Import took 0.020488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.163653 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网5.png
+  artifactKey: Guid(d2fec6248276da14c81ef5a19424302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网5.png using Guid(d2fec6248276da14c81ef5a19424302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978782a103c22d60c0a2fabf8e353143') in 0.023043 seconds 
+  Import took 0.026850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.310637 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网6.png
+  artifactKey: Guid(ef7679416813af04db4c0b8dd1ac921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网6.png using Guid(ef7679416813af04db4c0b8dd1ac921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92da1d30bb122910eec7db4d498360af') in 0.028598 seconds 
+  Import took 0.032118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.966995 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网7.png
+  artifactKey: Guid(64935cc68bcf8c44285f134bc31d94a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网7.png using Guid(64935cc68bcf8c44285f134bc31d94a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7ed58c786ed4b646e398f8ae93914d') in 0.070072 seconds 
+  Import took 0.074860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.312513 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网7.png
+  artifactKey: Guid(64935cc68bcf8c44285f134bc31d94a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/铁网分组/操场·铁网7.png using Guid(64935cc68bcf8c44285f134bc31d94a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf0c64469f37bc025688c7791a86855') in 0.033870 seconds 
+  Import took 0.037593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.873723 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.006928 seconds 
+  Import took 0.010063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.924027 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-乒乓球桌.png
+  artifactKey: Guid(4ed731ed1edb2f64393c4a3f803f8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-乒乓球桌.png using Guid(4ed731ed1edb2f64393c4a3f803f8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a27f4b9e77901d388c45e853f13b12') in 0.036390 seconds 
+  Import took 0.043068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.980382 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-乒乓球桌.png
+  artifactKey: Guid(4ed731ed1edb2f64393c4a3f803f8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-乒乓球桌.png using Guid(4ed731ed1edb2f64393c4a3f803f8485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d02682954e45f98c5913ab992221f0') in 0.041409 seconds 
+  Import took 0.045232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.417888 seconds.
+  path: Assets/PictureAssets/游戏场景/休息室分解/休息室底.png
+  artifactKey: Guid(67d2fd35bc213ad4d8e47bee2203960b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/休息室分解/休息室底.png using Guid(67d2fd35bc213ad4d8e47bee2203960b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b691b66c09aa5231efb2430f4b0d6d3') in 0.017272 seconds 
+  Import took 0.020433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/PictureAssets/游戏场景/休息室分解/休息室遮挡.png
+  artifactKey: Guid(e83755828a1a8174ba9557d18cc59efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/休息室分解/休息室遮挡.png using Guid(e83755828a1a8174ba9557d18cc59efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f801d22287a6a427d98f14fe0a13780') in 0.020257 seconds 
+  Import took 0.023639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.532719 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子1.png
+  artifactKey: Guid(62fa94b49e4b57142b47f764f0a79a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子1.png using Guid(62fa94b49e4b57142b47f764f0a79a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86e38ef903677fbbf470062f0153702') in 0.016812 seconds 
+  Import took 0.020611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-花坛.png
+  artifactKey: Guid(9677b3b816f4cec41875e5750e3de372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-花坛.png using Guid(9677b3b816f4cec41875e5750e3de372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581e82f2449d31e9bbf869110581a2c8') in 0.013892 seconds 
+  Import took 0.017628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-足球框.png
+  artifactKey: Guid(103a367ff8e56ba409fa17578adb81c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-足球框.png using Guid(103a367ff8e56ba409fa17578adb81c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87114c8ffde382d3e2fc6a5f09d53731') in 0.015245 seconds 
+  Import took 0.019283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子2.png
+  artifactKey: Guid(470a8ef07ae3e5d4ca528288e40c90e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子2.png using Guid(470a8ef07ae3e5d4ca528288e40c90e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9d11312cf127ae02eaf671270b01a3') in 0.013181 seconds 
+  Import took 0.016667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.813017 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子1.png
+  artifactKey: Guid(62fa94b49e4b57142b47f764f0a79a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子1.png using Guid(62fa94b49e4b57142b47f764f0a79a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54afbddbb5c406e31d39eff289b0399c') in 0.023818 seconds 
+  Import took 0.028114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.480463 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子2.png
+  artifactKey: Guid(470a8ef07ae3e5d4ca528288e40c90e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-篮子2.png using Guid(470a8ef07ae3e5d4ca528288e40c90e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a0141ab187f3dfcc660d173a3d5f45') in 0.024653 seconds 
+  Import took 0.028148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.112821 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-花坛.png
+  artifactKey: Guid(9677b3b816f4cec41875e5750e3de372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-花坛.png using Guid(9677b3b816f4cec41875e5750e3de372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cca693f5ddb26992d91a37143b9398') in 0.025994 seconds 
+  Import took 0.029803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.676886 seconds.
+  path: Assets/PictureAssets/游戏场景/操场地图分解/操场-足球框.png
+  artifactKey: Guid(103a367ff8e56ba409fa17578adb81c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PictureAssets/游戏场景/操场地图分解/操场-足球框.png using Guid(103a367ff8e56ba409fa17578adb81c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c054674fa70ceb306d58a7a4b9cd463d') in 0.031154 seconds 
+  Import took 0.035183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.627748 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.005309 seconds 
+  Import took 0.008596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.206873 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.005593 seconds 
+  Import took 0.008644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.937523 seconds.
+  path: Assets/Scenes/InGame.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/InGame.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e26d33ea338de4d48f2661e942a23e7') in 0.005650 seconds 
+  Import took 0.008780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.827118 seconds.
+  path: Assets/InGame/PictureAssets
+  artifactKey: Guid(e92b4c69302106c4e8ccf944d171a53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets using Guid(e92b4c69302106c4e8ccf944d171a53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85362fc804d846b760c99369e6626fc') in 0.005895 seconds 
+  Import took 0.009563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 582.731033 seconds.
+  path: Assets/InGame
+  artifactKey: Guid(c13d4c09f81fd114e9a9624470d65994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame using Guid(c13d4c09f81fd114e9a9624470d65994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee134ff4f459d4e0efe285572ee469c') in 0.005721 seconds 
+  Import took 0.010589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.217344 seconds.
+  path: Assets/InGame/Characters
+  artifactKey: Guid(6911ffbf63dfc514d8ea1e8b0f6b3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Characters using Guid(6911ffbf63dfc514d8ea1e8b0f6b3353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74aa128090b62eb6986191c8ab37ebc7') in 0.005470 seconds 
+  Import took 0.009977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.603138 seconds.
+  path: Assets/InGame/Characters/A_Tian
+  artifactKey: Guid(7f88c5865bf520549bc4ba15011ba9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Characters/A_Tian using Guid(7f88c5865bf520549bc4ba15011ba9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36922ae96a5048574906f1b3dbc7b80') in 0.006004 seconds 
+  Import took 0.009883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.366156 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：击晕（缩图版）/联系表-击晕.png
+  artifactKey: Guid(732bedd5cc197da499485c4339f1b001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：击晕（缩图版）/联系表-击晕.png using Guid(732bedd5cc197da499485c4339f1b001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6684e5ff6e54eea2604451e4c0117250') in 0.059142 seconds 
+  Import took 0.062837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.377817 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：击中 （缩图版）/红色沙包版
+  artifactKey: Guid(59fe0332af9788845b21e2e89864b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：击中 （缩图版）/红色沙包版 using Guid(59fe0332af9788845b21e2e89864b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e76a63f1f325ec30fd884e012eaba9') in 0.005303 seconds 
+  Import took 0.008511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243173 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：击中 （缩图版）/红色沙包版/联系表-击中红.png
+  artifactKey: Guid(22cbb9684eeca8245b2314d27ef3510f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：击中 （缩图版）/红色沙包版/联系表-击中红.png using Guid(22cbb9684eeca8245b2314d27ef3510f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a3aea48fc539ebdcab20c49eb03ad') in 0.021468 seconds 
+  Import took 0.025183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.880291 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：击中 （缩图版）/蓝色沙包版/联系表-击中蓝.png
+  artifactKey: Guid(7fa8e791fdd8da44aa1bdc837b6f9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：击中 （缩图版）/蓝色沙包版/联系表-击中蓝.png using Guid(7fa8e791fdd8da44aa1bdc837b6f9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e951efcdd389b64c104f8510a9bb6360') in 0.030727 seconds 
+  Import took 0.035103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.465016 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：击中 （缩图版）/黄色沙包版/联系表-击中黄.png
+  artifactKey: Guid(b2387434bf424654093a70ce4cb63122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：击中 （缩图版）/黄色沙包版/联系表-击中黄.png using Guid(b2387434bf424654093a70ce4cb63122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce52a36aa2766647dd7d62aca72e81c') in 0.029566 seconds 
+  Import took 0.033141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.810404 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版
+  artifactKey: Guid(6dbef4ca182a30a4aaed6e47e6523933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版 using Guid(6dbef4ca182a30a4aaed6e47e6523933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4f1f0810e395551c2c563a502d1147') in 0.005436 seconds 
+  Import took 0.008563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075163 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/联系表-待机蓝.png
+  artifactKey: Guid(2fd323acf7c29904881187472746b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/联系表-待机蓝.png using Guid(2fd323acf7c29904881187472746b38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4884d54cc27797eadb819c796c123c0') in 0.030334 seconds 
+  Import took 0.033762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.695314 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明
+  artifactKey: Guid(2362d00571401754e98a9b2b2ad4c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明 using Guid(2362d00571401754e98a9b2b2ad4c7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65b0747c941d1c434fa71b919645096') in 0.005131 seconds 
+  Import took 0.008825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059177 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天1.png
+  artifactKey: Guid(8c68b2ea2a33a714a83d01e31bc611b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天1.png using Guid(8c68b2ea2a33a714a83d01e31bc611b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacdff3a17f07f01bfe2a1c4ff857beb') in 0.013976 seconds 
+  Import took 0.016922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天7.png
+  artifactKey: Guid(3f4d6e3ba44de274c9fe6603c79ec97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天7.png using Guid(3f4d6e3ba44de274c9fe6603c79ec97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e0366a40d3eb5fb452668deaf9d335') in 0.021159 seconds 
+  Import took 0.024644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天8.png
+  artifactKey: Guid(cce8643d29a9ece41914734d91af8ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天8.png using Guid(cce8643d29a9ece41914734d91af8ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d5254e20a171463b52674dca9ce05f') in 0.013986 seconds 
+  Import took 0.017064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天4.png
+  artifactKey: Guid(57ddf08827996b14483720cb2bab0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天4.png using Guid(57ddf08827996b14483720cb2bab0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef97a1e34b83a7ea619c7f843aea178') in 0.011375 seconds 
+  Import took 0.014448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天5.png
+  artifactKey: Guid(361f5167426d75347abf460747b2d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天5.png using Guid(361f5167426d75347abf460747b2d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f309022c99ab4bb7abf66022e6842d8f') in 0.011515 seconds 
+  Import took 0.014554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天2.png
+  artifactKey: Guid(19471801399ef8d439a788db7ad0dcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天2.png using Guid(19471801399ef8d439a788db7ad0dcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51923610543f525b4853cb80a5ff37de') in 0.013436 seconds 
+  Import took 0.016339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天6.png
+  artifactKey: Guid(fe943e1e801a9d24f96ac6eac1996e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天6.png using Guid(fe943e1e801a9d24f96ac6eac1996e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697fc5a123466999a4e5e3c37d58a372') in 0.013685 seconds 
+  Import took 0.016599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天3.png
+  artifactKey: Guid(0fc98ee870d7b164080d5df0d021b651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/站立阿天3.png using Guid(0fc98ee870d7b164080d5df0d021b651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db67c9da86a77761175fef9700c239fa') in 0.012199 seconds 
+  Import took 0.015332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.927716 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/PlayerControl.cs
+  artifactKey: Guid(43a14da1189b46d4bb26e2ccf4aebd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/PlayerControl.cs using Guid(43a14da1189b46d4bb26e2ccf4aebd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f671180b30b83672bbd81947d2269bfc') in 0.011525 seconds 
+  Import took 0.014856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.357205 seconds.
+  path: Assets/InGame/Scripts
+  artifactKey: Guid(23cd91917944ba84db3f395ed3f0db3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Scripts using Guid(23cd91917944ba84db3f395ed3f0db3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86170349d656a32ffbab3b651635611e') in 0.005601 seconds 
+  Import took 0.010095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.374695 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：击退（缩图版）
+  artifactKey: Guid(aa5ab401cb1a2e44e82dcd59362d5d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：击退（缩图版） using Guid(aa5ab401cb1a2e44e82dcd59362d5d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aa1a7b03b3904920b9b9b0150fc680') in 0.005111 seconds 
+  Import took 0.008133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.220055 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：击晕（缩图版）
+  artifactKey: Guid(c9dfce8fe924cf549bd3baeb8f4d1a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：击晕（缩图版） using Guid(c9dfce8fe924cf549bd3baeb8f4d1a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb4564a0694e537307b98e8e63355b1') in 0.005250 seconds 
+  Import took 0.008401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.896627 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）
+  artifactKey: Guid(64d18cf360d9fa743823ff92e465ad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版） using Guid(64d18cf360d9fa743823ff92e465ad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd2da8b9ccb21a0257eb2ea317b7b5d') in 0.005184 seconds 
+  Import took 0.008338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.777769 seconds.
+  path: Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/New Folder
+  artifactKey: Guid(091cd9f579b84cb42ae670c9042b9871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/PictureAssets/角色动画：待机（缩图版）/蓝色沙包版/待机阿天蓝色沙包·透明/New Folder using Guid(091cd9f579b84cb42ae670c9042b9871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2469c43d536715f74478432becceb8') in 0.005597 seconds 
+  Import took 0.009678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.260372 seconds.
+  path: Assets/InGame/Scripts/Player
+  artifactKey: Guid(8ff12e2a04c4870409719c61740c0929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Scripts/Player using Guid(8ff12e2a04c4870409719c61740c0929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4ba9db07e669ee3f26136a02c9897f') in 0.005076 seconds 
+  Import took 0.008436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.940625 seconds.
+  path: Assets/InGame/Scripts/Rocker
+  artifactKey: Guid(2f637aa07c847294eb4412d13b3b8aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Scripts/Rocker using Guid(2f637aa07c847294eb4412d13b3b8aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2c315cfbf2968abfc18370cec7a064') in 0.004983 seconds 
+  Import took 0.007960 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001841 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (710ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2676.
+Total: 2.431900 ms (FindLiveObjects: 0.133300 ms CreateObjectMapping: 0.034000 ms MarkObjects: 2.248700 ms  DeleteObjects: 0.015000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.269735 seconds.
+  path: Assets/InGame/Rocker/AllAxis_Outline.png
+  artifactKey: Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Rocker/AllAxis_Outline.png using Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4514794d7977cf82ef4c49aff50e99') in 0.047603 seconds 
+  Import took 0.092005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/InGame/Rocker/Dynamic Joystick.prefab
+  artifactKey: Guid(56fae09712773584fb63896d473a98ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Rocker/Dynamic Joystick.prefab using Guid(56fae09712773584fb63896d473a98ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570cd46867535c517dba71557c354e0d') in 0.017035 seconds 
+  Import took 0.020106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/InGame/Rocker/Handle_Plain.png
+  artifactKey: Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Rocker/Handle_Plain.png using Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ad5a928879b96a93d2f91b2b6154ac') in 0.021525 seconds 
+  Import took 0.024670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.671795 seconds.
+  path: Assets/InGame/Rocker/Hit.cs
+  artifactKey: Guid(ca530353cbf3c0d4598bfb3170f82733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Rocker/Hit.cs using Guid(ca530353cbf3c0d4598bfb3170f82733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7977b1ef7c1b2295806202127c7aaf') in 0.004827 seconds 
+  Import took 0.047790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.892950 seconds.
+  path: Assets/InGame/Rocker/Joystick.cs
+  artifactKey: Guid(b9fca4100a7477741b3973b4ff2c405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Rocker/Joystick.cs using Guid(b9fca4100a7477741b3973b4ff2c405f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c8392d31d38d5bcfadc617c7f61c94') in 0.005258 seconds 
+  Import took 0.008709 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Domain Reload Profiling:
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (574ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2681.
+Total: 2.499200 ms (FindLiveObjects: 0.130800 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.309300 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.492169 seconds.
+  path: Assets/InGame/Rocker/DynamicJoystick.cs
+  artifactKey: Guid(ba0d0e7a039f526499c356a3c5cd6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Rocker/DynamicJoystick.cs using Guid(ba0d0e7a039f526499c356a3c5cd6d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da174d619b9ed0408706a34f60f643d') in 0.006967 seconds 
+  Import took 0.010580 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Domain Reload Profiling:
+	ReloadAssembly (702ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2683.
+Total: 2.380400 ms (FindLiveObjects: 0.132800 ms CreateObjectMapping: 0.034600 ms MarkObjects: 2.198000 ms  DeleteObjects: 0.014200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.966202 seconds.
+  path: Assets/InGame/Rocker
+  artifactKey: Guid(ce2655f413d11ea4dbe1991d09559d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InGame/Rocker using Guid(ce2655f413d11ea4dbe1991d09559d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e67ffb5ac8c960e1e6f421bebb5c0d8') in 0.004287 seconds 
+  Import took 0.007293 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001979 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.704 seconds
+Domain Reload Profiling:
+	ReloadAssembly (704ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2175 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 2.498400 ms (FindLiveObjects: 0.131800 ms CreateObjectMapping: 0.033000 ms MarkObjects: 2.317800 ms  DeleteObjects: 0.015000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
